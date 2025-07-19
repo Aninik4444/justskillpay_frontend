@@ -1,7 +1,6 @@
 // src/pages/AdminPanel.jsx
 
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { getAllEmployers, updateBadgesCSR, updateFeature, updateVisibility } from '../api/employerApi';
 
 const AdminPanel = () => {
